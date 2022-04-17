@@ -18,7 +18,9 @@
         </header>
     </div>
     <div class="container py-4 text-light bg-success">
-
+        <form method="POST" ID="logout" action={{url_for('crud.crud_logout')}} >
+            <input type="submit" value="Logout">
+        </form>
         <div class="container bg-secondary py-4">
             <div class="p-5 mb-4 bg-light text-dark rounded-3">
                 <h2>Table Viewer</h2>
